@@ -1,0 +1,17 @@
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\bin\Debug\netcoreapp2.1\WebApiTest.deps.json
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\bin\Debug\netcoreapp2.1\WebApiTest.runtimeconfig.json
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\bin\Debug\netcoreapp2.1\WebApiTest.runtimeconfig.dev.json
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\bin\Debug\netcoreapp2.1\WebApiTest.dll
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\bin\Debug\netcoreapp2.1\WebApiTest.pdb
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\bin\Debug\netcoreapp2.1\WebApiDemo.dll
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\bin\Debug\netcoreapp2.1\WebApiDemo.pdb
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\obj\Debug\netcoreapp2.1\WebApiTest.csprojAssemblyReference.cache
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\obj\Debug\netcoreapp2.1\WebApiTest.csproj.CoreCompileInputs.cache
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\obj\Debug\netcoreapp2.1\WebApiTest.AssemblyInfoInputs.cache
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\obj\Debug\netcoreapp2.1\WebApiTest.AssemblyInfo.cs
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\obj\Debug\netcoreapp2.1\WebApiTest.csproj.CopyComplete
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\obj\Debug\netcoreapp2.1\WebApiTest.dll
+C:\Users\vitripathi\source\repos\WebApiDemo\WebApiTest\obj\Debug\netcoreapp2.1\WebApiTest.pdb
