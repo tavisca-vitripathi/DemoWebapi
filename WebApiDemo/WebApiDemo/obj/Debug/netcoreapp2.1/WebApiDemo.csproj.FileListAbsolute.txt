@@ -12,3 +12,17 @@ C:\Users\vitripathi\source\repos\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\W
 C:\Users\vitripathi\source\repos\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.RazorTargetAssemblyInfo.cache
 C:\Users\vitripathi\source\repos\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.dll
 C:\Users\vitripathi\source\repos\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.pdb
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\bin\Debug\netcoreapp2.1\WebApiDemo.deps.json
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\bin\Debug\netcoreapp2.1\WebApiDemo.runtimeconfig.json
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\bin\Debug\netcoreapp2.1\WebApiDemo.runtimeconfig.dev.json
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\bin\Debug\netcoreapp2.1\WebApiDemo.dll
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\bin\Debug\netcoreapp2.1\WebApiDemo.pdb
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.csprojAssemblyReference.cache
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.csproj.CoreCompileInputs.cache
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.RazorAssemblyInfo.cache
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.RazorAssemblyInfo.cs
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.AssemblyInfoInputs.cache
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.AssemblyInfo.cs
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.RazorTargetAssemblyInfo.cache
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.dll
+C:\Users\vitripathi\Desktop\API\WebApiDemo\WebApiDemo\obj\Debug\netcoreapp2.1\WebApiDemo.pdb

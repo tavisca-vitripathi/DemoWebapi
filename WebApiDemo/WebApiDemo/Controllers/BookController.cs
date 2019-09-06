@@ -46,8 +46,11 @@ namespace WebApiDemo.Controllers
         [HttpPost]
         public ActionResult Post([FromBody]Book book) 
         {
-            _book.AddBook(book);
-            return Ok();
+            if(_book.AddBook(book))
+                return Ok();
+            else{
+                return NotFound();
+            }
             
 
         }
@@ -57,8 +60,14 @@ namespace WebApiDemo.Controllers
         public ActionResult Put(string name, Book book)
         {
 
-            _book.UpdateBook(name, book);
-            return Ok();
+            if (_book.UpdateBook(name, book)==true)
+            {
+                return Ok();
+            }
+            else
+            {
+               return NotFound();
+            }
 
         }
 

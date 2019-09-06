@@ -7,8 +7,8 @@ namespace WebApiDemo.Services
     {
        List<Book> GetAllBook();
         Book GetBookByName( string name);
-        void AddBook(Book book);
-       void UpdateBook(string name,Book book);
+        bool AddBook(Book book);
+       bool UpdateBook(string name,Book book);
 
     }
 }

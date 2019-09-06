@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApiDemo.Modals;
+using System.Text.RegularExpressions;
 
 namespace WebApiDemo.Services
 {
@@ -19,52 +20,80 @@ namespace WebApiDemo.Services
         
        public void LoadJson()
         {
-         using (StreamReader r = new StreamReader("C:/Users/vitripathi/source/repos/WebApiDemo/WebApiDemo/Repository/BookData.json"))
+         using (StreamReader r = new StreamReader("C:/Users/vitripathi/Desktop/API/WebApiDemo/WebApiDemo/Repository/BookData.json"))
           { string json = r.ReadToEnd();
            _bookList = JsonConvert.DeserializeObject<List<Book>>(json);
            }
         }
+
         public void SaveJson()
         {
             string json = JsonConvert.SerializeObject(_bookList.ToArray());
-            System.IO.File.WriteAllText("C:/Users/vitripathi/source/repos/WebApiDemo/WebApiDemo/Repository/BookData.json", json);
+            System.IO.File.WriteAllText("C:/Users/vitripathi/Desktop/API/WebApiDemo/WebApiDemo/Repository/BookData.json", json);
         }
 
-        public void AddBook(Book book)
+
+        public bool AddBook(Book book)
         {
-            _bookList.Add(book);
-            SaveJson();
-          //  return "Adddition Done!";
+           if(Regex.IsMatch(book.Title,"^[a-zA-Z0-9!@#$&()-`.+,/\" ]+$") && Regex.IsMatch(book.Author, "^[a-zA-Z ]+$")&& book.Price>0)
+            {
+                _bookList.Add(book);
+                SaveJson();
+                return true;
+            }
+            return false;
         }
 
         public List<Book> GetAllBook()
         {
-            return _bookList;
+            if (_bookList.Count == 0)
+            {
+                return null;
+            }
+            else
+            {
+                return _bookList;
+            }
         }
 
 
         public Book GetBookByName(string name)
-        {
-           return _bookList.Where(b => b.Title == name).FirstOrDefault();
-            
+        { if (Regex.IsMatch(name, "^[a-zA-Z0-9!@#$&()-`.+,/\" ]+$"))
+            {
+                var book= _bookList.Where(b => b.Title == name).FirstOrDefault();
+                if (book == null)
+                {
+                    return null;
+                }
+                else
+                {
+                    return book;
+                }
+            }
+            else
+            {
+                return null;
+            }
+        
         }
 
-        public void UpdateBook(string name, Book book)
+        public bool UpdateBook(string name, Book book)
         {
-            //foreach(var item in _bookList)
-            //{
-            //    if(item.Title == name)
-            //    {
-            //        item.Price = book.Price;
-            //        item.Author = book.Author;
-            //    }
-            //}
-            foreach (var item in _bookList.Where(w => w.Title==name))
+            bool status = false;
+            if (Regex.IsMatch(name, "^[a-zA-Z0-9!@#$&()-`.+,/\" ]+$") && Regex.IsMatch(book.Title, "^[a-zA-Z 0-9]+$") && Regex.IsMatch(book.Author, "^[a-zA-Z ]+$") && book.Price > 0)
             {
-                item.Price = book.Price;
-                item.Author = book.Author;
+                foreach (var item in _bookList.Where(w => w.Title == name))
+                {
+                    item.Price = book.Price;
+                    item.Author = book.Author;
+                    status = true;
+                    SaveJson();
+                }
             }
-            SaveJson();
+            else{
+                status = false ;
+            }
+            return status;
         }
     }
 
